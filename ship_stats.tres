@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://dyn477tjc4toa"]
+
+[ext_resource type="Script" path="res://ship_stats.gd" id="1_x1fpr"]
+
+[resource]
+resource_name = "ship_stats"
+script = ExtResource("1_x1fpr")
+health = 0
+destination = Vector2(0, 0)
+max_speed = 0
+symbol = ""

@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://btw2am86anled"]
+
+[ext_resource type="PackedScene" uid="uid://c0kharm2gg8js" path="res://ship.tscn" id="1_oq6n3"]
+[ext_resource type="Script" path="res://Carrier.gd" id="2_2itfv"]
+
+[node name="Carrier" instance=ExtResource("1_oq6n3")]
+script = ExtResource("2_2itfv")
